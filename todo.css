@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 500px;
+    width: 900px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+}
+.sidebar{
+    width: 240px;
+    
+    padding: 30px;
+    background: linear-gradient(180deg,#5c5cff,#7c6c);
+
+}
+header{
+    margin-bottom: 700px;
+    text-align: end;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+}
+.menu{
+    list-style: none;
+
+}
+.menu li{
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-bottom: 70px;
+    transition: 0.3s;
+    padding: 20px;
+
+}
+.menu li:hover{
+    background: blue;
+}
+.dashb{
+    
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 40px;
+    text-shadow: 2px 2px 10px blue;
+    font-weight: bold;
+
+
+}
+.dashb img{
+    height: 80%;
+}
+.dashb img:hover{
+    filter: blur(3px);
+}
+.say {
+    list-style-type: none;
+    font-size: 20px;
+    color:black;
+    background-color: #5c5cff;
+    padding: 0px;
+}

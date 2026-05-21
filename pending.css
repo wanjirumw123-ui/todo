@@ -1,0 +1,42 @@
+.sidebar{
+    width: 240px;
+    
+    padding: 30px;
+    background: linear-gradient(180deg,#5c5cff,#7c6c);
+}
+.menu{
+    list-style: none;
+
+}
+.menu li{
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-bottom: 70px;
+    transition: 0.3s;
+    padding: 20px;
+
+}
+.menu li:hover{
+    background: blue;
+}
+.container{
+    display: flex;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 500px;
+    width: 900px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+}
+.pend input{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    border-color: #5c5cff;
+}
+.pend input ::placeholder{
+    font-size: 50px;
+    font-weight: bold;
+    
+}
